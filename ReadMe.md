@@ -10,17 +10,20 @@ The ADC sends back a string of the adc values "'PA0','PA1','PA4'\r\n", (without 
 The PWM want to have a word of 8-bit, for example "AAA" or "A@&" or "A=ÿ", where the first symbol is the 8-bit ASCII character 
 for PA8, the second symbol is PA9 and the last symbol is for PA10. The symbol ÿ will give 100% duty call because ÿ is ASCII 255.
 
-![](https://github.com/DanielMartensson/Embedded-C-With-STM32/blob/master/USB-IO/USB-IO-STM32.jpg?raw=true)
+![](https://github.com/DanielMartensson/C-Applications/blob/master/USB-IO/USB-IO-STM32.jpg?raw=true)
 
 Here is an example how to send those ASCII numbers to the USB-IO. 
 
-![](https://github.com/DanielMartensson/Embedded-C-With-STM32/blob/master/USB-IO/USB-IO.png?raw=true)
+![](https://github.com/DanielMartensson/C-Applications/blob/master/USB-IO/USB-IO.png?raw=true)
 
 # Bluetooth Blue Giga API - GBLib
 This is a working example how to use the BLExxxx modules such as BLED112 USB Bluetooth Dongle. Fully portable for both Windows and Linux.
 Written in pure C code and is terminal based. In Linux, you must be root to access this BLExxxx module from the serial port.
 
 This example is built on current example from Silicon Labs, but I have extended it with a chat function by writing some few lines of code.
+
+![](https://github.com/DanielMartensson/C-Applications/blob/master/Bluetooth Blue Giga API/index.jpeg?raw=true)
+
 
 ## How to use
 Flash the BLE module with the hex file located in the "ubdcdc" folder from the "Bluetooth Blue Giga API" folder. Then you need to use the BlueGiga GUI and from the menu -> 
