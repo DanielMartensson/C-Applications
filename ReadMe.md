@@ -22,7 +22,7 @@ Written in pure C code and is terminal based. In Linux, you must be root to acce
 
 This example is built on current example from Silicon Labs, but I have extended it with a chat function by writing some few lines of code.
 
-# How to use
+## How to use
 Flash the BLE module with the hex file located in the "ubdcdc" folder from the "Bluetooth Blue Giga API" folder. Then you need to use the BlueGiga GUI and from the menu -> 
 command -> DFU. There you will burn the hex into your BLExxxx module. 
 
