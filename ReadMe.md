@@ -22,7 +22,7 @@ Written in pure C code and is terminal based. In Linux, you must be root to acce
 
 This example is built on current example from Silicon Labs, but I have extended it with a chat function by writing some few lines of code.
 
-![](https://github.com/DanielMartensson/C-Applications/blob/master/Bluetooth Blue Giga API/index.jpeg?raw=true)
+![](https://raw.githubusercontent.com/DanielMartensson/C-Applications/master/Bluetooth%20Blue%20Giga%20API/index.jpeg?raw=true)
 
 
 ## How to use
