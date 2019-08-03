@@ -71,3 +71,14 @@ What do you want to do?
 Any number just update any message.
 Enter: 
 ```
+
+# PWM controlling a hydraulic haning load
+This project is done by turning a potentiometer (10K) so an embedded system (STM32) can read the analog signals. The embedded system then send out a PWM frequency in high Hz so it will control a spole at hydraulic propotional valve. The valve will there fore release a velocity of oil to the hydraulic cylinder and then build a pressure due to the mass as load. The variable orifice is a shunt so the valve can operate the position on the mass. Else, it will be a very static system. Even if this is possible to control, it's still very nonlinear and I tried a Model Predictive Control system where the output of the state space model was velocity. But it was very hard to control.
+
+I therefore will focusing on Fuzzy-Logic for hydraulical systems.
+
+Please watch the video inside the folder "Potentiometer To PWM Generator" so you can see how it looks like when I turn the potentiometer and the load goes up and down.
+
+![](https://raw.githubusercontent.com/DanielMartensson/C-Applications/master/Potentiometer%20To%20PWM%20Generator/Bench.jpeg?raw=true)
+
+![](https://raw.githubusercontent.com/DanielMartensson/C-Applications/master/Potentiometer%20To%20PWM%20Generator/Schematic.png?raw=true)
